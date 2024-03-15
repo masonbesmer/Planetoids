@@ -1,4 +1,7 @@
 {
   "item.planetoids.zircon": "Zircon",
-  "item.planetoids.raw_zircon": "Raw Zircon"
+  "item.planetoids.raw_zircon": "Raw Zircon",
+  "item.planetoids.black_opal": "Black Opal",
+  "item.planetoids.raw_black_opal": "Raw Black Opal",
+  "creativemodetab.planetoids_tab": "Planetoids"
 }
