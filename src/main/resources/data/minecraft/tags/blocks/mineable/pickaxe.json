@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "planetoids:black_opal_ore",
+    "planetoids:black_opal_block",
+    "planetoids:deepslate_black_opal_ore",
+    "planetoids:netherrack_black_opal_ore",
+    "planetoids:endstone_black_opal_ore"
+  ]
+}

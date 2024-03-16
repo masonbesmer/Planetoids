@@ -1,0 +1,6 @@
+// 1.19.4	2024-03-15T19:55:54.9066849	Loot Tables
+e18a468f9baf485032f2b5f470fffcdded1b537c data/planetoids/loot_tables/blocks/black_opal_block.json
+27baad0540d1bc9658483eb33b298d262ff404c3 data/planetoids/loot_tables/blocks/black_opal_ore.json
+a499a3f7096aa0f3b5c1cc2be005461e8e33beb8 data/planetoids/loot_tables/blocks/deepslate_black_opal_ore.json
+b83919be896a72c287470d13b3fd86aaa4c2eacc data/planetoids/loot_tables/blocks/endstone_black_opal_ore.json
+b22992d9e194826af23f9730de450cea771918a0 data/planetoids/loot_tables/blocks/netherrack_black_opal_ore.json
