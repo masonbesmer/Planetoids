@@ -1,7 +1,9 @@
-// 1.19.4	2024-03-15T20:24:23.4137655	Recipes
+// 1.19.4	2024-03-15T20:59:32.6775539	Recipes
 4d3170f3fa02fdf2534f739a240002d1ddb6d66d data/planetoids/advancements/recipes/building_blocks/black_opal.json
 c57248730ae7ca9ebd97de761ef5bce0f4717894 data/planetoids/advancements/recipes/misc/black_opal_block.json
+f300eb2679c0ebef33a3639c96198ad12dcc0a2e data/planetoids/advancements/recipes/misc/black_opal_from_blasting_raw_black_opal.json
 63ce46ef6bac382c1cee6b95482683c8de6f24fa data/planetoids/advancements/recipes/misc/black_opal_from_smelting_raw_black_opal.json
 5096624b322f1673dc7c7925440d4703f697f3be data/planetoids/recipes/black_opal.json
 56ec86f5732a0b92d4fc05a0cdb5eeb20229d925 data/planetoids/recipes/black_opal_block.json
+c5d8521218defe5e0e625c14dcf55f72930600ed data/planetoids/recipes/black_opal_from_blasting_raw_black_opal.json
 34427b441b19ffc2842262c67cd55f53d286bab2 data/planetoids/recipes/black_opal_from_smelting_raw_black_opal.json

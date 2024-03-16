@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "planetoids:block/ebony_log",
+    "side": "planetoids:block/ebony_log"
+  }
+}

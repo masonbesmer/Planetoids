@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "planetoids:ebony_log",
+    "planetoids:ebony_wood",
+    "planetoids:stripped_ebony_log",
+    "planetoids:stripped_ebony_wood"
+  ]
+}

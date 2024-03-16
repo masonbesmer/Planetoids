@@ -1,6 +1,4 @@
 {
-  "item.planetoids.zircon": "Zircon",
-  "item.planetoids.raw_zircon": "Raw Zircon",
   "item.planetoids.black_opal": "Black Opal",
   "item.planetoids.raw_black_opal": "Raw Black Opal",
 
@@ -9,6 +7,14 @@
   "block.planetoids.deepslate_black_opal_ore": "Deepslate Black Opal Ore",
   "block.planetoids.netherrack_black_opal_ore": "Nether Black Opal Ore",
   "block.planetoids.endstone_black_opal_ore": "Endstone Black Opal Ore",
+
+  "block.planetoids.ebony_log": "Ebony Log",
+  "block.planetoids.ebony_planks": "Ebony Planks",
+  "block.planetoids.ebony_wood": "Ebony Wood",
+  "block.planetoids.stripped_ebony_log": "Stripped Ebony Log",
+  "block.planetoids.stripped_ebony_wood": "Stripped Ebony Wood",
+  "block.planetoids.ebony_leaves": "Ebony Leaves",
+  "block.planetoids.ebony_sapling": "Ebony Sapling",
 
   "creativemodetab.planetoids_tab": "Planetoids"
 }

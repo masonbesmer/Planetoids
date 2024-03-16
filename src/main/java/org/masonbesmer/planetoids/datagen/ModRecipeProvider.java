@@ -27,6 +27,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         nineBlockStorageRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.BLACK_OPAL.get(), RecipeCategory.MISC,
                 ModBlocks.BLACK_OPAL_BLOCK.get());
+
+        oreBlasting(consumer,List.of(ModItems.RAW_BLACK_OPAL.get()), RecipeCategory.MISC,
+                ModItems.BLACK_OPAL.get(), 0.7f, 100, "black_opal");
     }
 
     protected static void oreCooking(Consumer<FinishedRecipe> pFinishedRecipeConsumer, RecipeSerializer<? extends AbstractCookingRecipe> pCookingSerializer,
@@ -58,5 +61,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 pExperience, pCookingTIme, pGroup, "_from_smelting");
     }
 
-
+    protected static void oreBlasting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup) {
+        oreCooking(pFinishedRecipeConsumer, RecipeSerializer.BLASTING_RECIPE, pIngredients, pCategory, pResult, pExperience, pCookingTime, pGroup, "_from_blasting");
+    }
 }

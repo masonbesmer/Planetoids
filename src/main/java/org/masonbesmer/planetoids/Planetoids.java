@@ -2,6 +2,8 @@ package org.masonbesmer.planetoids;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -68,8 +70,6 @@ public class Planetoids {
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if (event.getTab() == ModCreativeModeTabs.PLANETOID_TAB) {
-            event.accept(ModItems.RAW_ZIRCON);
-            event.accept(ModItems.ZIRCON);
             event.accept(ModItems.BLACK_OPAL);
             event.accept(ModItems.RAW_BLACK_OPAL);
             event.accept(ModBlocks.BLACK_OPAL_BLOCK);
@@ -77,6 +77,24 @@ public class Planetoids {
             event.accept(ModBlocks.DEEPSLATE_BLACK_OPAL_ORE);
             event.accept(ModBlocks.NETHERRACK_BLACK_OPAL_ORE);
             event.accept(ModBlocks.ENDSTONE_BLACK_OPAL_ORE); // e gb ab a b c eb e
+
+            event.accept(ModBlocks.EBONY_LEAVES);
+            event.accept(ModBlocks.EBONY_LOG);
+            event.accept(ModBlocks.EBONY_WOOD);
+            event.accept(ModBlocks.EBONY_SAPLING);
+            event.accept(ModBlocks.EBONY_PLANKS);
+            event.accept(ModBlocks.STRIPPED_EBONY_LOG);
+            event.accept(ModBlocks.STRIPPED_EBONY_WOOD);
+        }
+
+        if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.EBONY_LEAVES);
+            event.accept(ModBlocks.EBONY_LOG);
+            event.accept(ModBlocks.EBONY_WOOD);
+            event.accept(ModBlocks.EBONY_SAPLING);
+            event.accept(ModBlocks.EBONY_PLANKS);
+            event.accept(ModBlocks.STRIPPED_EBONY_LOG);
+            event.accept(ModBlocks.STRIPPED_EBONY_WOOD);
         }
     }
 

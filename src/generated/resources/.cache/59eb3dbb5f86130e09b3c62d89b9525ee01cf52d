@@ -1,6 +1,13 @@
-// 1.19.4	2024-03-15T19:55:54.9066849	Loot Tables
+// 1.19.4	2024-03-15T22:27:18.202466	Loot Tables
 e18a468f9baf485032f2b5f470fffcdded1b537c data/planetoids/loot_tables/blocks/black_opal_block.json
 27baad0540d1bc9658483eb33b298d262ff404c3 data/planetoids/loot_tables/blocks/black_opal_ore.json
 a499a3f7096aa0f3b5c1cc2be005461e8e33beb8 data/planetoids/loot_tables/blocks/deepslate_black_opal_ore.json
+0c2d9a7d9ccfa7d0ae64bc550e9739fa243535a9 data/planetoids/loot_tables/blocks/ebony_leaves.json
+8c5a66f6b8359293d9ca89bc921611def793ff52 data/planetoids/loot_tables/blocks/ebony_log.json
+2ea450c09aee82964d421909670885a59a1b99a8 data/planetoids/loot_tables/blocks/ebony_planks.json
+54eb7c304ccf1b3c4bb30227af705492eab78f73 data/planetoids/loot_tables/blocks/ebony_sapling.json
+84432d87074ce99a854d807467c905d5a6ee9bb8 data/planetoids/loot_tables/blocks/ebony_wood.json
 b83919be896a72c287470d13b3fd86aaa4c2eacc data/planetoids/loot_tables/blocks/endstone_black_opal_ore.json
 b22992d9e194826af23f9730de450cea771918a0 data/planetoids/loot_tables/blocks/netherrack_black_opal_ore.json
+c51e91e78989b8d64edfacb7ad196ead170db396 data/planetoids/loot_tables/blocks/stripped_ebony_log.json
+e56fc28b98a227d35ef8174bde708757e57ae969 data/planetoids/loot_tables/blocks/stripped_ebony_wood.json
