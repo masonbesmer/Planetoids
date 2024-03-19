@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "MixinGameModeSwitcherScreen"
+    "MixinSheep"
   ],
   "injectors": {
     "defaultRequire": 1
