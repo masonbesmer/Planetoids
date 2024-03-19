@@ -88,6 +88,7 @@ minecraft {
         client {
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', mod_id
+            arg "-mixin.config=planetoids.mixin.json"
         }
 
         server {
@@ -189,9 +190,14 @@ tasks.named('jar', Jar).configure {
                 "Implementation-Title": project.name,
                 "Implementation-Version": project.jar.archiveVersion,
                 "Implementation-Vendor": mod_authors,
-                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
+                "TweakClass": "org.spongepowered.asm.launch.MixinTweaker",
+                "TweakOrder": 0,
+                "MixinConfigs": "planetoids.mixin.json"
         ])
     }
+
+    rename 'mixin.refmap.json', 'planetiods.mixin-refmap.json'
 
     // This is the preferred method to reobfuscate your jar file
     finalizedBy 'reobfJar'
